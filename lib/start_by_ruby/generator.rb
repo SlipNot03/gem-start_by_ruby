@@ -12,7 +12,8 @@ module StartByRuby
     TEMPLATES_DIR = File.expand_path('../../templates', __dir__)
 
     # Хэш-карта для удобного сопоставления "шаблон -> целевой файл"
-    FILES_TO_CREATE = { "Gemfile.tt" => "Gemfile","Rakefile.tt" => "Rakefile","db_config.rb.tt" => "config/db_config.rb","main.rb.tt" => "main.rb" }
+    FILES_TO_CREATE = { "Gemfile.tt" => "Gemfile","Rakefile.tt" => "Rakefile","db_config.rb.tt" => "config/db_config.rb",
+    "main.rb.tt" => "main.rb","delete_this.tt" => "db/migrations/delete_this.rb","delete_this_too.tt" => "db/models/delete_this_too.rb" }
 
     # --- Публичные методы ---
 
