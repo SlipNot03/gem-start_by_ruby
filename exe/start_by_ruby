@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'start_by_ruby'
+
+ProjectStarter::Generator.run
