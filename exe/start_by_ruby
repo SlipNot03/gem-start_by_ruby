@@ -2,4 +2,4 @@
 
 require 'start_by_ruby'
 
-ProjectStarter::Generator.run
+StartByRuby::Generator.run
